@@ -5,7 +5,7 @@ This helper allows export jSignature signatures to SVG without DOM
 https://github.com/willowsystems/jSignature
 
 ## Installation with bower
-bower install jSignatureHelper
+bower install jsignaturehelper
 
 ## Installation with npm
 npm install jsignaturehelper
