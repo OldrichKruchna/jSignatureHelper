@@ -11,4 +11,9 @@ bower install jSignatureHelper
 npm install jsignaturehelper
 
 ## Usage
+### export from base30 to SVG
 jSigHelper.base30toSVG(base30sig)
+### export from base30 to base64 SVG
+jSigHelper.base30toBase64SVG(base30sig)
+### export from base30 to path data in array (used for drawing signature in PDF)
+jSigHelper.base30toPaths(base30sig)
