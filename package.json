@@ -1,0 +1,25 @@
+{
+  "name": "jsignaturehelper",
+  "version": "1.0.0",
+  "description": "Helper which allows export jSignature signatures to SVG without DOM",
+  "main": "jSignatureHelper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OldrichKruchna/jSignatureHelper.git"
+  },
+  "keywords": [
+    "jSignature",
+    "helper",
+    "export",
+    "svg",
+    "base30"
+  ],
+  "author": "Oldrich Kruchna",
+  "bugs": {
+    "url": "https://github.com/OldrichKruchna/jSignatureHelper/issues"
+  },
+  "homepage": "https://github.com/OldrichKruchna/jSignatureHelper#readme"
+}
