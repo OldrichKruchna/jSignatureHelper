@@ -804,9 +804,22 @@ http://phpjs.org/functions/base64_encode
 		var native = uncompressstrokes(data);
 		return compressstrokesPaths(native);
 	}
-	
+
+	function base30toBase64SVG(data, settings) {
+		var native = uncompressstrokes(data);
+		var _settings = {
+			color: "rgb(0, 0, 0)",
+			lineWidth: 2
+		};
+		if (settings && settings.color) _settings.color = settings.color;
+		if (settings && settings.lineWidth) _settings.lineWidth = settings.lineWidth;
+
+		return getBase64encodedSVG(native, _settings);
+	}
+
 	return {
 		base30toSVG: base30toSVG,
+		base30toBase64SVG: base30toBase64SVG,
 		base30toPaths: base30toPaths
 	}
 }());
